@@ -4,7 +4,9 @@ body {
     position: relative;
     height: 100%;
 }
-
+.navbar-collapse    .navbar-nav>li>a{
+    font-size: 16px;
+}
 body {
     // background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -13,44 +15,49 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.navbar{
+    min-height: 70px;
+}
+#buy{
+        color: #fff;
+    background-color: #5eb4eb;
+}
 #navbar-menu ul li:last-child {
     //background-color: #5eb4eb;
 }
-#navbar-menu ul .actives{
-    background: #5eb4eb;
-    a{
-        color: #ffffff;
+
+#navbar-menu ul .actives {
+    color: #5eb4eb;
+    a {
+        color: #5eb4eb;
     }
-    }
+}
+
 .swiper-container {
     width: 100%;
     height: 67%;
-    margin-top: 100px;
+//  margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     .swiper-wrapper {
         .item1 {
-            margin-top: 60px;
+//          margin-top: 60px;
             background-image: url("../img/banner1.png");
             background-size: 100% 100%;
             background-position: center;
-            
         }
         .item2 {
-            margin-top: 60px;
+//          margin-top: 60px;
             background-image: url("../img/banner2.png");
             background-size: 100% 100%;
             background-position: center;
-           
         }
         .item3 {
-            margin-top: 60px;
+//          margin-top: 60px;
             background-image: url("../img/banner3.png");
             background-size: 100% 100%;
             background-position: center;
             color: #e29e29;
-           
         }
     }
 }
@@ -424,7 +431,6 @@ body {
     position: fixed;
     top: 50%;
     z-index: 999;
-
     img {
         width: 20px;
         float: right;
@@ -454,11 +460,11 @@ body {
         text-align: center;
         margin: 80px 0 20px;
         letter-spacing: 2px;
-        a,a:hover{
+        a,
+        a:hover {
             text-decoration: none;
-                cursor: pointer;
+            cursor: pointer;
         }
-        
     }
     .small_title {
         font-size: 22px;
@@ -475,72 +481,87 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-     .cook_title{
-                font-size: 25px;
-    letter-spacing: 2px;
-    margin-left: 20px;
-    margin-top: 100px;
-            }
-            .cook1{
-                     font-size: 20px;
-    letter-spacing: 7px;
-    margin-left: 18%;
-    margin-top: 5%;
-    margin-bottom: 10px;
-            }
-            .cook2{
-                   font-size: 20px;
-    letter-spacing: 7px;
-    margin-left: 22%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-            }
-            .cook3{
-               font-size: 20px;
-    letter-spacing: 7px;
-    margin-left: 22%;
-    margin-top: 23px;
-    margin-bottom: 10px;
-            }
-     .food{
-                color:#fff;
-                font-size:24px;
-                text-align: right;
-                margin: 154px 0 40px;
-                 letter-spacing: 2px;
-            }
-            .food_text{
-                font-size: 18px;
-                color:#fff;
-                letter-spacing: 2px;
-                text-align: right;
-                margin: 10px 0;
-            }
-
-    .tanzhen1{
-                    width: 49%;
-    
-    display: block;
-    margin: 20px auto;
-            }
-            .tanzhen2{
-                   width: 50%;
-    display: block;
-    margin: 11px auto 40px;
-            }
-            .tanzhen_btn{
-                    background-color: #0cb9f2;
-    width: 213px;
-    height: 40px;
-    border-radius: 40px;
-    margin: 0 auto;
-                p{
-                      color: #fff;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-                }
-            }
+    .cook_titles {
+        font-size: 25px;
+        letter-spacing: 1px;
+        margin-left: 15px;
+        margin-top: 175px;
+        color: #fff;
+    }
+    .cooks1 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 8%;
+        color: #fff;
+        margin-top: 5%;
+        margin-bottom: 10px;
+    }
+    .cooks2 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 12%;
+        margin-top: 20px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .cooks3 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 16%;
+        color: #Fff;
+        margin-top: 23px;
+        margin-bottom: 10px;
+    }
+    .cook_title {
+        font-size: 25px;
+        letter-spacing: 2px;
+        margin-left: 20px;
+        margin-top: 175px;
+    }
+    .cook1 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 18%;
+        margin-top: 5%;
+        margin-bottom: 10px;
+    }
+    .cook2 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 22%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .cook3 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-left: 22%;
+        margin-top: 23px;
+        margin-bottom: 10px;
+    }
+    .tanzhen1 {
+        width: 49%;
+        display: block;
+        margin: 45px auto;
+    }
+    .tanzhen2 {
+        width: 50%;
+        display: block;
+        margin: 11px auto 40px;
+    }
+    .tanzhen_btn {
+        background-color: #0cb9f2;
+        width: 213px;
+        height: 40px;
+        border-radius: 40px;
+        margin: 0 auto;
+        p {
+            color: #fff;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
     .new_text {
         letter-spacing: 1px;
         font-size: 15px;
@@ -680,24 +701,24 @@ body {
     .swiper-container {
         width: 100%;
         height: 72%;
-        margin-top: 100px;
+//      margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
         .swiper-wrapper {
             .item1 {
-                margin-top: 60px;
+//              margin-top: 60px;
                 background-image: url("../img/banner1.png");
                 background-size: auto 100%;
                 background-position: right;
             }
             .item2 {
-                margin-top: 60px;
+//              margin-top: 60px;
                 background-image: url("../img/banner2.png");
                 background-size: auto 100%;
                 background-position: -1000px;
             }
             .item3 {
-                margin-top: 60px;
+//              margin-top: 60px;
                 background-image: url("../img/banner3.png");
                 background-size: auto 100%;
                 background-position: right;
@@ -767,75 +788,107 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-     .cook_title{
-                font-size: 42px;
-                letter-spacing: 2px;
-                margin-left: 250px;
-                margin-top:170px;
-            }
-            .cook1{
-                font-size:24px;
-                letter-spacing: 7px;
-                margin-left:28%;
-                 margin-top: 10px;
-                margin-bottom: 10px;
-            }
-            .cook2{
-                font-size:24px;
-                letter-spacing: 7px;
-                margin-left: 32%;
-                 margin-top: 10px;
-                margin-bottom: 10px;
-            }
-            .cook3{
-                font-size:24px;
-                letter-spacing: 7px;
-                margin-left: 30%;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-     .food{
-                color:#fff;
-                font-size:30px;
-                text-align: right;
-                margin: 100px 0 40px;
-                 letter-spacing: 2px;
-            }
-            .food_text{
-                font-size: 24px;
-                color:#fff;
-                letter-spacing: 2px;
-                text-align: right;
-                margin: 10px 0;
-            }
-    .tanzhen1{
-                width: 69%;
-                margin: 60px;
-            }
-            .tanzhen2{
-                width: 63%;
-                display: block;
-                margin: 70px auto 50px;
-            }
-            .tanzhen_btn{
-                background-color: #0cb9f2;
-                width: 240px;
-                height: 50px;
-                border-radius: 50px;
-                margin:0 auto;
-                p{
-                   color:#fff; 
-                   line-height:50px;
-                   text-align: center;
-                   font-size: 16px;
-                }
-            }
+    .cook_title {
+        font-size: 42px;
+        letter-spacing: 2px;
+        margin-left: 250px;
+        margin-top: 170px;
+    }
+    .cook1 {
+        font-size: 24px;
+        letter-spacing: 7px;
+        margin-left: 28%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cook2 {
+        font-size: 24px;
+        letter-spacing: 7px;
+        margin-left: 32%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cook3 {
+        font-size: 24px;
+        letter-spacing: 7px;
+        margin-left: 30%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cook_titles {
+        font-size: 42px;
+        letter-spacing: 2px;
+        margin-left: 28px;
+        margin-top: 173px;
+        color: #fff;
+    }
+    .cooks1 {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 7px;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cooks2 {
+        font-size: 24px;
+        color: #F;
+        color: #fff;
+        letter-spacing: 7px;
+        margin-left:18%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cooks3 {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 7px;
+        margin-left: 19%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .food {
+        color: #fff;
+        font-size: 30px;
+        text-align: right;
+        margin: 100px 0 40px;
+        letter-spacing: 2px;
+    }
+    .food_text {
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: right;
+        margin: 10px 0;
+    }
+    .tanzhen1 {
+        width: 69%;
+        margin: 90px;
+    }
+    .tanzhen2 {
+        width: 63%;
+        display: block;
+        margin: 115px auto 50px;
+    }
+    .tanzhen_btn {
+        background-color: #0cb9f2;
+        width: 240px;
+        height: 50px;
+        border-radius: 50px;
+        margin: 0 auto;
+        p {
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
     .new_text {
         letter-spacing: 1px;
         font-size: 18px;
         line-height: 38px;
         color: #777;
-         text-indent: 2em;
+        text-indent: 2em;
     }
     .xinwen img {
         margin: 15px auto;
@@ -934,7 +987,7 @@ body {
     }
     .top {
         width: 100%;
-        height: 390px;
+        height: 420px;
         background-image: url("../img/people_bg.png");
         background-size: 100% 100%;
         background-position: center;

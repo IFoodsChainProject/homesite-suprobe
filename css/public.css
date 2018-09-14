@@ -303,6 +303,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+	
 	.picture img {
 		width: 71px;
 		height: 35px;
@@ -530,7 +531,7 @@ body {
 }
 
 .navbar-collapse .navbar-nav .actives {
-	background: #5eb4eb;
+	color: #5eb4eb;
 }
 
 .navbar-collapse .navbar-nav .actives>a {
