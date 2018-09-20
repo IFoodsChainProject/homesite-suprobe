@@ -307,6 +307,8 @@ body {
   margin: 40px 0;
 }
 .recruit .support .container .block_btn {
+  display: block;
+  text-decoration: none;
   font-size: 20px;
   text-align: center;
   width: 200px;
@@ -328,6 +330,8 @@ body {
   text-align: center;
 }
 .friend .container .row .block_btn {
+  display: block;
+  text-decoration: none;
   font-size: 20px;
   text-align: center;
   width: 200px;
@@ -338,6 +342,10 @@ body {
   color: #fff;
   border-radius: 5px;
   background-image: linear-gradient(-45deg, #0071b8 0%, #0093f1 100%);
+}
+.recruit .support .container .block_btn:hover,
+.friend .container .row .block_btn:hover{
+  background-image: linear-gradient(-45deg,#0382d1 0%, #19a7ff 100%);
 }
 .alerts {
   width: 300px;
