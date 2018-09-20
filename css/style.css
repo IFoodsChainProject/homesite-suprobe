@@ -61,26 +61,44 @@ body {
 .super-power .container .row .content {
   margin: 15px 0;
   padding: 10px auto;
+  display: inline-block;
 }
 .super-power .container .row .content .items-img {
-  width: 85px;
-  height: 85px;
-  display: inline-block;
+  width: 100px;
+  height: 100px;
+  float: left;
 }
 .super-power .container .row .content .items {
-  display: inline-block;
   margin-left: 10px;
   font-size: 18px;
-  transform: translateY(17px);
+  float: left;
+  position: relative;
+}
+.super-power .container .row .content .items p{
+  width: 220px;
+  position: absolute;
 }
 .super-power .container .row .content .items .title {
+  top:0px;
+  left:0;
   color: #333333;
-  margin-top: 10px;
 }
 .super-power .container .row .content .items .detail {
+  top: 70px;
+  left: 0;
   color: #666666;
   font-size: 16px;
   cursor: pointer;
+}
+.super-power .container .row .content .items .detail a{
+  color: #666666;
+  text-decoration: none;
+}
+.super-power .container .row .content .items .detail a:hover{
+  color: #0071b8;
+}
+.super-power .container .row .content .items .detail a:active{
+  color: #1a50a3;
 }
 .wechat .container .row .bg {
   margin: 70px auto;
