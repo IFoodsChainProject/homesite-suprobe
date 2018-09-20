@@ -229,18 +229,28 @@ body {
 }
 
 .screenbtn {
-	cursor: pointer;
 	/* border: 1px solid #000000; */
-	text-align: center;
-	line-height: 49px;
+	width: 141px;
+	height: 49px;
+	margin: 44px auto;
+}
+.screenbtn a{
+	display: block;
 	width: 141px;
 	height: 49px;
 	color: #ffffff;
 	background-color: #50a8df;
-	margin: 44px auto;
+	text-align: center;
+	line-height: 49px;
 	border-radius: 10px;
+	text-decoration: none;
 }
-
+.screenbtn a:hover{
+	background-color: #58b7f1;
+}
+.screenbtn a:active{
+	background-color: #52a6da;
+}
 .about {
 	color: #fff;
 	margin: 0 auto;

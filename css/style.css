@@ -21,6 +21,12 @@ body {
   color: #fff;
   background-color: #5eb4eb;
 }
+#buy:hover{
+  background-color: #67c3fc;
+}
+#buy:active{
+  background-color: #54a6d8;
+}
 #navbar-menu ul .actives {
   color: #5eb4eb;
 }
@@ -347,6 +353,10 @@ body {
 .friend .container .row .block_btn:hover{
   background-image: linear-gradient(-45deg,#0382d1 0%, #19a7ff 100%);
 }
+.recruit .support .container .block_btn:active,
+.friend .container .row .block_btn:active{
+  background-image: linear-gradient(-45deg, #035f99 0%, #0480ce 100%);
+}
 .alerts {
   width: 300px;
   height: 150px;
@@ -470,17 +480,26 @@ body {
     margin: 11px auto 40px;
   }
   .tanzhen_btn {
-    background-color: #0cb9f2;
     width: 213px;
-    height: 40px;
-    border-radius: 40px;
     margin: 0 auto;
   }
-  .tanzhen_btn p {
+  .tanzhen_btn a {
+    display: block;
+    width: 213px;
+    height: 40px;
+    background-color: #0cb9f2;
+    border-radius: 40px;
+    text-decoration: none;
     color: #fff;
     line-height: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .tanzhen_btn a:hover{
+    background-color: #1bc5fd;
+  }
+  .tanzhen_btn a:active{
+    background-color: #0ba5d8;
   }
   .new_text {
     letter-spacing: 1px;
@@ -720,7 +739,6 @@ body {
   }
   .cooks2 {
     font-size: 24px;
-    color: #F;
     color: #fff;
     letter-spacing: 7px;
     margin-left: 18%;
@@ -759,17 +777,26 @@ body {
     margin: 115px auto 50px;
   }
   .tanzhen_btn {
-    background-color: #0cb9f2;
-    width: 240px;
-    height: 50px;
-    border-radius: 50px;
+    width: 213px;
     margin: 0 auto;
   }
-  .tanzhen_btn p {
+  .tanzhen_btn a {
+    display: block;
+    width: 213px;
+    height: 40px;
+    background-color: #0cb9f2;
+    border-radius: 40px;
+    text-decoration: none;
     color: #fff;
-    line-height: 50px;
+    line-height: 40px;
     text-align: center;
     font-size: 16px;
+  }
+  .tanzhen_btn a:hover{
+    background-color: #1bc5fd;
+  }
+  .tanzhen_btn a:active{
+    background-color: #0ba5d8;
   }
   .new_text {
     letter-spacing: 1px;
