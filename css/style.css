@@ -119,9 +119,31 @@ body {
   color: #333333;
   font-size: 20px;
 }
+.footer{
+  padding: 40px 0;
+}
+.footer-header{
+  border-bottom:1px solid #999;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  color: #999;
+}
+.footer-header a{
+  display: inline-block;
+  color: inherit;
+}
+.footer-header a:hover{
+  text-decoration: none;
+}
+.footer-header div+div{
+  border-left: 1px solid #999;
+}
+.footer .setmargin>div{
+  margin-bottom: 10px;
+}
 .footer .container .row div {
   font-size: 16px;
-  margin-bottom: 20px;
 }
 .footer .container .row .time {
   text-align: right;
