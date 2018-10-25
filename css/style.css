@@ -100,7 +100,7 @@ body {
   color: #1a50a3;
 }
 .wechat .container .row .bg {
-  margin: 70px auto;
+  margin: auto;
   height: 140px;
   background-color: #eeeeee;
 }
@@ -119,14 +119,14 @@ body {
   font-size: 20px;
 }
 .footer{
-  padding: 40px 0;
+  padding: 0 0 40px 0;
 }
 .footer-header{
-  border-bottom:1px solid #999;
   text-align: center;
   margin-bottom: 10px;
   padding: 10px 0;
   color: #999;
+  border-bottom:1px solid #999;
 }
 .footer-header a{
   display: inline-block;
