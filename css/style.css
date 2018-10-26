@@ -125,10 +125,39 @@ body {
   font-size: .9em;
   color: #999;
 }
+.footer li{
+  list-style-type: none;;
+}
+.footer li h4{
+  font-size: 1.2em;
+  padding: 0 0 1em 0;
+}
+.footer li a{
+  display: inline-block;
+  line-height: 2;
+  text-decoration: none;
+  color: #999;
+}
+.footer li a:hover{
+  text-decoration: none;
+  color:#1a50a3;
+}
+.footer-content div section{
+  margin-top:50%;
+}
+.footer-footer a{
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
+}
+.footer-footer a:hover{
+  text-decoration: none;
+  color:#1a50a3;
+}
 .footer-header{
   text-align: center;
   margin-bottom: 10px;
-  padding: 10px 0;
+  padding: 1.4em 0;
   color: #999;
   border-bottom:1px solid #999;
 }
@@ -139,6 +168,7 @@ body {
 }
 .footer-header a:hover{
   text-decoration: none;
+  color:#1a50a3;
 }
 .footer-header div+div{
   border-left: 1px solid #999;
@@ -436,6 +466,9 @@ body {
   text-align: center;
   margin: 80px 0 20px;
   letter-spacing: 2px;
+}
+.xinwen article h4{
+  line-height: 4;
 }
 .xinwen .titles a,
 .xinwen .titles a:hover {
