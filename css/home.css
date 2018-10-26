@@ -73,6 +73,7 @@ section.float-word p{
   text-align: justify;
 }
 
+
 @media screen and (max-width: 768px) {
   #home-bg1{
     background: url(../img/homepage/eg1-small.jpg) no-repeat center/auto 100%;
