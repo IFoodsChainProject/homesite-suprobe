@@ -52,12 +52,24 @@
   padding: 20px;
   margin-top: 30vh;
 }
+#home-bg3 section{
+  background: linear-gradient(to left,transparent,rgba(0, 0, 0, .1)) ;
+}
+section.float-word h1{
+  font-size: 1.6em;
+}
+section.float-word h2{
+  font-size: 1.4em;
+}
+section.float-word h3{
+  font-size: 1.2em;
+}
 section.float-word h1,section.float-word h2, section.float-word h3{
   display: inline-block;
   line-height: 2.4em;
 }
 section.float-word p{
-  font-size: 1.6em;
+  font-size: 1em;
   text-align: justify;
 }
 
