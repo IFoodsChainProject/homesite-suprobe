@@ -507,16 +507,19 @@ body {
 }
 #joinus h4{
   text-align: center;
-  color:#999;
+  color:#414040;
 }
 #joinus .titles{
-  font-size: 2.4em;
-  color:#646464;
+  font-size: 1.6em;
+  color:#414040;
 }
 #joinus p{
-  padding: 0 16em;
-  color: #949393;
+  padding: 0 22em;
+  color: #646464;
   line-height: 2;
+}
+#joinus p:last-of-type{
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .cook_titles {
