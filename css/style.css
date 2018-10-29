@@ -150,6 +150,10 @@ body {
 .footer-content  .last-one{
   border-left:1px solid #999;
 }
+.footer-content  .last-one li:nth-of-type(2)>a{
+  color:#1a50a3;
+  font-size: 1.4em;
+}
 .footer-footer{
   padding: 1em 0 ;
   color: #646464;
@@ -470,6 +474,11 @@ body {
   background-color: #fff;
   font-weight: 600;
 }
+#joinus header{
+  background: url(../img/joinus.jpg) no-repeat center/100% 100%;
+  height: 26vw;
+}
+
 .xinwen .titles {
   font-size: 26px;
   text-align: center;
@@ -495,6 +504,19 @@ body {
   margin: 10px 0;
   font-size: 16px;
   text-align: center;
+}
+#joinus h4{
+  text-align: center;
+  color:#999;
+}
+#joinus .titles{
+  font-size: 2.4em;
+  color:#646464;
+}
+#joinus p{
+  padding: 0 16em;
+  color: #949393;
+  line-height: 2;
 }
 @media screen and (max-width: 768px) {
   .cook_titles {
