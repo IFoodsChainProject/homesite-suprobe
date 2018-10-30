@@ -218,6 +218,7 @@ body {
 	text-align: center;
 	margin: 10px auto;
 	font-size: 24px;
+	color:#646464;
 }
 
 .screentext p {
@@ -225,6 +226,7 @@ body {
 	width: 90%;
 	line-height: 33px;
 	margin: 0 auto;
+	color:#646464;
 }
 
 .screenbtn {
@@ -409,9 +411,12 @@ body {
 		margin: 0 auto;
 		text-align: center;
 	}
-	.screentext {}
+	.screentext {
+		color:#646464;
+	}
 	screentext h3 {
 		font-size: 21px;
+		color:#646464;
 	}
 	.about h2 {
 		padding-top: 170px;
