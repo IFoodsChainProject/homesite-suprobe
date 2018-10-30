@@ -24,6 +24,7 @@
 }
 .slide1-content h1,.slide1-content h2,.slide1-content h3{
   line-height: 1.4;
+  color: #646464;
 }
 .slide1-content h2{
   font-size: 3em;font-weight: 400;

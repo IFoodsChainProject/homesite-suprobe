@@ -261,6 +261,21 @@ body {
 .service .container .row .to_active {
   display: block;
 }
+.contactus-img{
+  background: url(../img/contactus.jpg) no-repeat center/100% 100%;
+  width: 100%;
+  height:26vw;
+}
+.aftersale-img{
+  background: url(../img/aftersale.jpg) no-repeat center/100% 100%;
+  width: 100%;
+  height:26vw;
+}
+.aboutus-img{
+  background: url(../img/aboutus.jpg) no-repeat center/100% 100%;
+  width: 100%;
+  height:26vw;
+}
 .bg_img {
   margin-top: 60px;
 }
