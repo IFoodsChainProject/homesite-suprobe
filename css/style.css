@@ -144,6 +144,9 @@ body {
   text-decoration: none;
   color:#1a50a3;
 }
+.footer-content ul{
+  padding: 0;
+}
 .footer-content div section{
   margin-top:50%;
 }
