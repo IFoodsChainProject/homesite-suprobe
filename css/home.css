@@ -76,20 +76,23 @@ section.float-word p{
 
 
 @media screen and (max-width: 768px) {
+  #home-bg1,#home-bg2,#home-bg3,#home-bg4,#home-bg5{
+    width: 100%;height:80%;
+  }
   #home-bg1{
-    background: url(../img/homepage/eg1-small.jpg) no-repeat center;
+    background: url(../img/homepage/eg1-small.jpg) no-repeat center/100% 100%;
   }
   #home-bg2{
-    background: url(../img/homepage/eg2-small.jpg) no-repeat center;
+    background: url(../img/homepage/eg2-small.jpg) no-repeat center/100% 100%;
   }
   #home-bg3{
-    background: url(../img/homepage/eg3-small.jpg) no-repeat center;
+    background: url(../img/homepage/eg3-small.jpg) no-repeat center/100% 100%;
   }
   #home-bg4{
-    background: url(../img/homepage/eg4-small.jpg) no-repeat center;
+    background: url(../img/homepage/eg4-small.jpg) no-repeat center/100% 100%;
   }
   #home-bg5{
-    background: url(../img/homepage/eg5-small.jpg) no-repeat center;
+    background: url(../img/homepage/eg5-small.jpg) no-repeat center/100% 100%;
   }
   section.float-word h1,section.float-word h2, section.float-word h3{
     line-height: 1;
